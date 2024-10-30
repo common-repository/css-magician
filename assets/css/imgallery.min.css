@@ -1,0 +1,72 @@
+#easyaudiogallery,
+#easyimgallery,
+#easysvggallery,
+#easyvideogallery {
+    text-align: center;
+    height: 700px;
+    overflow-y: auto;
+    position: relative;
+    background-color: #aaa69d
+}
+
+#easyaudiogallery ul,
+#easyimgallery ul,
+#easysvggallery ul,
+#easyvideogallery ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 650px
+}
+
+#easyaudiogallery li,
+#easyimgallery li,
+#easysvggallery li,
+#easyvideogallery li {
+    display: inline-grid;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    cursor: pointer
+}
+
+#easyaudiogallery li audio,
+#easyimgallery li img,
+#easysvggallery li video,
+#easyvideogallery li video {
+    padding: 3px;
+    background: #494444;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    object-fit: cover;
+    width: 100px;
+    height: 100px
+}
+
+.ui-dialog {
+    z-index: 1000000!important;
+}
+
+.ui-dialog .ui-dialog-title {
+    width: 80%
+}
+
+.ui-widget button {
+    float: right !important;
+    background-color: #c1c2c4
+}
+
+.vmutc_svg_gallery_action {
+    font-size: 14px
+}
+
+.vmutc_gallerySvgRemove {
+    margin-left: 10px
+}
+
+.vmutc_galleryImageRemove,
+.vmutc_galleryVideoRemove {
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer
+}
